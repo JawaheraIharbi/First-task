@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #2c3338;
+  background: #c5d9ed;
+}
+.hide {
+  display: none;
+}
+#result {
+  margin-top: 2em;
+  background: #facfd2;
+  border-radius: 10px;
+  padding: 2rem;
+  color: #fff;
+}
+button {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background: #2271b1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+}
