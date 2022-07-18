@@ -9,7 +9,7 @@ startRecognition = () => {
     let recognition = new SpeechRecognition();
 
     recognition.onstart = () => {
-      status.innerHTML = `Starting listening, speak in the microphone please 🦻`;
+      status.innerHTML = `Starting listening, speak in the microphone  `;
       output.classList.add("hide");
     };
 
